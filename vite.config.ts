@@ -1,10 +1,11 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
+// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/', // ✅ Fix: Set base to root
+  base: '/FAB/', // ✅ Required for GitHub Pages deployment under repo name
   plugins: [react()],
   optimizeDeps: {
-    exclude: ['lucide-react'],
+    exclude: ['lucide-react'], // ✅ Optional: exclude if it causes dev issues
   },
 });
