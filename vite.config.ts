@@ -3,9 +3,8 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/FAB/', // ✅ Required for GitHub Pages deployment under repo name
   plugins: [react()],
   optimizeDeps: {
-    exclude: ['lucide-react'], // ✅ Optional: exclude if it causes dev issues
+    exclude: ['lucide-react'], // optional, keep if needed
   },
 });
