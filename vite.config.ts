@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/FAB/',
+  base: '/', // ✅ Fix: Set base to root
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
