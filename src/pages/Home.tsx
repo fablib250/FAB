@@ -68,7 +68,7 @@ const Home: React.FC = () => {
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-full opacity-50 blur-md animate-pulse"></div>
                 <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden border-2 border-holographic-border">
                   <img
-                    src="https://scontent.fkgl2-2.fna.fbcdn.net/v/t39.30808-6/485877703_3968334483414594_5221676271835076150_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeGzekewfiRWwKnUlfmOjykpm_04epl-f1qb_Th6mX5_WqWSaYREbEhZb3q0cx-_ZU9y84fLI1dZCuFWZKMFbwWf&_nc_ohc=2mV0AHwrGmgQ7kNvwF_5gP_&_nc_oc=AdkN5bFayvvlwpR65tugn5m3mpl0bZXUJLoOChPKsCgwMppA24Vaz3ymcb2ItAMQU0A&_nc_zt=23&_nc_ht=scontent.fkgl2-2.fna&_nc_gid=8uw67CG5MwuI0iOVps0MMQ&oh=00_AfWK0pAnpY6fXu7hGFL6KdrSNrPY-EsEb14O9MDrLbE9Cg&oe=68B70A80"
+                    src="/img/1.jpg"
                     alt="Dusabimana Muhire Fabrice"
                     className="w-full h-full object-cover"
                   />
