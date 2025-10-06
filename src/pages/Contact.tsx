@@ -10,19 +10,19 @@ const Contact: React.FC = () => {
     {
       icon: <Mail size={24} className="text-primary-400" />,
       title: "Email",
-      info: "muhirefabrice250@gmail.com",
-      link: "mailto:muhirefabrice250@gmail.com",
+      info: "muhire.fabrice.2025@bristol.ac.uk",
+      link: "mailto:muhire.fabrice.2025@bristol.ac.uk",
     },
     {
       icon: <Phone size={24} className="text-primary-400" />,
       title: "Phone",
-      info: "+250 78 861 3137",
-      link: "tel:+250788613137",
+      info: "+44 7933 554932",
+      link: "tel:+44 7933 554932",
     },
     {
       icon: <MapPin size={24} className="text-primary-400" />,
       title: "Location",
-      info: "Kigali, Rwanda",
+      info: "England, United Kingdom",
       link: "https://maps.google.com/?q=Kigali,Rwanda",
     },
     {
