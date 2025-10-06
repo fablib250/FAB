@@ -17,16 +17,14 @@ const References: React.FC = () => {
       name: "Senior Pastor Remero Murego Didacienne",
       title: "Faith Builders Church",
       image: "https://scontent.fkgl2-1.fna.fbcdn.net/v/t39.30808-6/308378492_132650522849437_9045673018675964835_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFiEk5_AdGRNTpePAZeWBqDYiRd684-gFliJF3rzj6AWZPTk9XQFUqM6s9Y57gf1k-hiMpRTuKNJgxZ0_oDS9YG&_nc_ohc=TqEPKXIrqKkQ7kNvwGBojU6&_nc_oc=Adk4qJq4WS12HPXmhLv-J9SYaCiUgEB9CPIs_ctw_SSFi40PVDrIAC7ytb1O5lbtclE&_nc_zt=23&_nc_ht=scontent.fkgl2-1.fna&_nc_gid=oUN3Q_3thQza8UXf1cmWbQ&oh=00_AfVxJR_t5bX4nxgy8lBBob0oF81Al9rjHnwRqOmpDuFp6A&oe=68BA2BC4",
-      email: "remu.dida@faithbuilders.org",
-      phone: "+250788987654"
+    
     },
     {
       quote: "Working with Fabrice was a pleasure. His technical skills combined with his ability to clearly explain complex concepts made him an invaluable contributor onto most tasks.",
       name: "Hannah Spens-Black",
       title: "Consultant",
       image: "https://media.licdn.com/dms/image/v2/C4D03AQGSK4nL54whgg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1611931789983?e=1759363200&v=beta&t=1fCkSTATkOMIqAdAVA0DjHqfPvC2ZspufR3p5C-DePo",
-      email: "hannah.spensblack@gmail.com",
-      phone: "+447900123456"
+
     }
   ];
 
