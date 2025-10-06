@@ -21,18 +21,16 @@ const Projects: React.FC = () => {
       demoUrl: "#",
       codeUrl: "#"
     },
-    {
-      title: "Nuclear Hackathon Project",
-      description: "Award-winning project from the Nuclear Hackathon focused on radiation monitoring and safety applications.",
-     <img 
-     src="/img/14.png" 
-     alt="Nuclear Hackathon Project" 
-     className="w-full h-auto"
-    />
- tags: [ "C++", "Nuclear Physics"],
-      demoUrl: "#",
-      codeUrl: "#"
-    },
+{
+  title: "Nuclear Hackathon Project",
+  description: "Award-winning project from the Nuclear Hackathon focused on radiation monitoring and safety applications.",
+  image: "/img/14.png",
+  alt: "Nuclear Hackathon Project",
+  tags: ["C++", "Nuclear Physics"],
+  demoUrl: "#",
+  codeUrl: "#"
+}
+
     {
       title: "Molecular Dynamics Simulation",
       description: "Simulation of molecular interactions using numerical methods to study physical properties of materials.",
