@@ -25,7 +25,7 @@ const About: React.FC = () => {
               <div className="absolute -inset-2 bg-gradient-to-r from-primary-500/20 to-secondary-500/20 rounded-lg blur-md"></div>
               <div className="relative rounded-lg overflow-hidden border border-holographic-border">
                 <img 
-                  src="/img/2.jpg" 
+                  src="/img/2.png" 
                   alt="Dusabimana Muhire Fabrice in lab" 
                   className="w-full h-auto"
                 />
