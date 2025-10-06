@@ -12,7 +12,7 @@ const experienceData = [
   },
   {
     title: "Prototyping Specialist",
-    organization: "University of Rwanda, FabLab",
+    organization: "University of Rwanda, Unipod",
     period: "2024 - 2025",
     description: "Designed and developed prototypes for research projects for students. Provided IT support for the lab's computing infrastructure and equipments.",
     logo: "https://via.placeholder.com/150"
