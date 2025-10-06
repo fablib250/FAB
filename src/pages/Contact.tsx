@@ -23,7 +23,7 @@ const Contact: React.FC = () => {
       icon: <MapPin size={24} className="text-primary-400" />,
       title: "Location",
       info: "England, United Kingdom",
-      link: "https://maps.google.com/?q=England",
+      link: "https://maps.google.com/?q=52.3555,-1.1743",
     },
     {
       icon: <Linkedin size={24} className="text-primary-400" />,
