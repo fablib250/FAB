@@ -24,8 +24,12 @@ const Projects: React.FC = () => {
     {
       title: "Nuclear Hackathon Project",
       description: "Award-winning project from the Nuclear Hackathon focused on radiation monitoring and safety applications.",
-      image: "https://scontent.fkgl2-1.fna.fbcdn.net/v/t39.30808-6/482242321_3958753117706064_781450140359272764_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGyVxciWlr5JN9CHFqrugqpBiZI3nxmQBAGJkjefGZAEHUYE9J3vb2JDeLJe7EKKN-w_rYUjMs5801ky7XjczD9&_nc_ohc=JdcdyFgem4QQ7kNvwFHBA84&_nc_oc=AdlJuurvLiWlzBN7pTG-2yRaMOgrdUVjKFM9d9n2xMPBoStmdFqienJcZcay5P2G8WY&_nc_zt=23&_nc_ht=scontent.fkgl2-1.fna&_nc_gid=CbCzfAmWFPnF3gjTuB2mBA&oh=00_AfV75BUo0paAt369Ocgw2jYOxg5UDc9zjFtAMecEPsQcSw&oe=68BA2145",
-      tags: [ "C++", "Nuclear Physics"],
+     <img 
+     src="/img/14.png" 
+     alt="Nuclear Hackathon Project" 
+     className="w-full h-auto"
+    />
+ tags: [ "C++", "Nuclear Physics"],
       demoUrl: "#",
       codeUrl: "#"
     },
