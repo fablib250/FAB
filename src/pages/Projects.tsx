@@ -4,45 +4,44 @@ import ProjectCard from '../components/ui/ProjectCard';
 
 const Projects: React.FC = () => {
   const projects = [
-
     {
       title: "ASESMA 2023 (smr3847)",
-      description: "Investigated structural and electronic properties of pentagonal 2D materials using DFT and machine learning, employing Cairo tessellation to model non-standard atomic geometries.",
+      description:
+        "Investigated structural and electronic properties of pentagonal 2D materials using DFT and machine learning, employing Cairo tessellation to model non-standard atomic geometries.",
       image: "https://indico.ictp.it/event/10181/material/4/0.jpg",
-      tags: ["Quantum Computing", "ML",  "Physics"],
+      tags: ["Quantum Computing", "ML", "Physics"],
       demoUrl: "#",
-      codeUrl: "#"
+      codeUrl: "#",
     },
     {
       title: "Scientific Data Visualization Platform",
-      description: "Interactive web platform for visualizing complex scientific data sets with customizable parameters and export options.",
-      image: "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      description:
+        "Interactive web platform for visualizing complex scientific data sets with customizable parameters and export options.",
+      image:
+        "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       tags: ["D3.js", "JavaScript", "Data Science", "Visualization"],
       demoUrl: "#",
-      codeUrl: "#"
+      codeUrl: "#",
     },
     {
       title: "Nuclear Hackathon Project",
-      description: "Award-winning project from the Nuclear Hackathon focused on radiation monitoring and safety applications.",
-     <img 
-       src="/img/14.png" 
-       alt="Nuclear Hackathon Project" 
-       className="w-full h-auto" 
-     />
-     
+      description:
+        "Award-winning project from the Nuclear Hackathon focused on radiation monitoring and safety applications.",
+      image: "/img/14.png",
       tags: ["C++", "Nuclear Physics"],
       demoUrl: "#",
-      codeUrl: "#"
-}
-
+      codeUrl: "#",
+    },
     {
       title: "Molecular Dynamics Simulation",
-      description: "Simulation of molecular interactions using numerical methods to study physical properties of materials.",
-      image: "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      description:
+        "Simulation of molecular interactions using numerical methods to study physical properties of materials.",
+      image:
+        "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       tags: ["Python", "NumPy", "Simulation", "Physics"],
       demoUrl: "#",
-      codeUrl: "#"
-    }
+      codeUrl: "#",
+    },
   ];
 
   return (
