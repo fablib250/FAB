@@ -125,7 +125,7 @@ const Home: React.FC = () => {
                     <h3 className="text-xl font-rajdhani font-medium text-primary-300 mb-3">Scientific Computing</h3>
                     <p className="text-gray-400 mb-4 flex-grow">Exploring computational methods to solve complex physics problems and simulate natural phenomena.</p>
                     <div className="flex items-center text-primary-400 hover:text-primary-300 transition-colors">
-                      <span>View Projects&Achievements</span>
+                      <span>View Projects</span>
                       <ArrowRight size={16} className="ml-1" />
                     </div>
                   </div>
