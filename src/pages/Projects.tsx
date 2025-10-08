@@ -36,9 +36,18 @@ const Projects: React.FC = () => {
       title: "Molecular Dynamics Simulation",
       description:
         "Simulation of molecular interactions using numerical methods to study physical properties of materials.",
+      image: "/img/14.png",
+      tags: ["Python", "Embeddeb programing", "Simulation", "CAD"],
+      demoUrl: "#",
+      codeUrl: "#",
+    },
+    {
+      title: "UNIPOD Prototypes – University of Rwanda",
+      description:
+        "Presented innovative student-led prototypes to the UN Deputy Secretary-General, Mrs. Amina J. Mohammed. The showcase highlighted how young Rwandan innovators are redefining Africa’s technological future, demonstrating that Africans can shape and own their narratives.",
       image:
-        "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      tags: ["Python", "NumPy", "Simulation", "Physics"],
+        "https://upload.wikimedia.org/wikipedia/commons/2/2c/Amina_J._Mohammed.jpg",
+      tags: ["Innovation", "Prototypes", "Africa", "UNIPOD", "Leadership"],
       demoUrl: "#",
       codeUrl: "#",
     },
@@ -56,7 +65,7 @@ const Projects: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
           {projects.map((project, index) => (
             <ProjectCard
-              key={index}
+              key={project.title}
               title={project.title}
               description={project.description}
               image={project.image}
