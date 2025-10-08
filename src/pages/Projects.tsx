@@ -44,7 +44,7 @@ const Projects: React.FC = () => {
     {
       title: "UNIPOD Prototypes – University of Rwanda",
       description:
-        "Presented innovative student-led prototypes to the UN Deputy Secretary-General, Mrs. Amina J. Mohammed. The showcase highlighted how young Rwandan innovators are redefining Africa’s technological future, demonstrating that Africans can shape and own their narratives.",
+        "I was part of presented innovative student-led prototypes to the UN Deputy Secretary-General, Mrs. Amina J. Mohammed. The showcase highlighted how young Rwandan innovators are redefining Africa’s technological future, demonstrating that Africans can shape and own their narratives.",
       image:
         "https://upload.wikimedia.org/wikipedia/commons/2/2c/Amina_J._Mohammed.jpg",
       tags: ["Innovation", "Prototypes", "Africa", "UNIPOD", "Leadership"],
