@@ -36,7 +36,7 @@ const Projects: React.FC = () => {
       title: "Molecular Dynamics Simulation",
       description:
         "Simulation of molecular interactions using numerical methods to study physical properties of materials.",
-      image: "/img/15.jpg",
+      image: "/img/16.jpg",
       tags: ["Python"],
       demoUrl: "#",
       codeUrl: "#",
