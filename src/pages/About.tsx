@@ -26,7 +26,7 @@ const About: React.FC = () => {
               <div className="relative rounded-lg overflow-hidden border border-holographic-border">
                 <img 
                   src="/img/2.png" 
-                  alt="Dusabimana Muhire Fabrice in lab" 
+                  alt="Fabrice in lab" 
                   className="w-full h-auto"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-60"></div>
