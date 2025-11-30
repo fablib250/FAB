@@ -21,7 +21,7 @@ const Home: React.FC = () => {
                 transition={{ duration: 0.5 }}
               >
                 <h1 className="text-4xl sm:text-5xl md:text-6xl font-rajdhani font-bold text-white leading-tight mb-4">
-                  <span className="text-primary-400 text-glow"> Khalid Muhire </span> Fabrice
+                  <span className="text-primary-400 text-glow">Dusabimana Muhire </span> Fabrice
                 </h1>
                 
                 <div className="text-xl sm:text-2xl text-gray-300 mb-6 h-16">
