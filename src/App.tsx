@@ -1,5 +1,4 @@
-import React from 'react';
-import { Routes, Route, useLocation } from 'react-router-dom';
+import React, { useMemo } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 
 // Layout
@@ -16,12 +15,41 @@ import Interest from './pages/Interest';
 import Contact from './pages/Contact';
 
 function App() {
-  const location = useLocation();
+  const pathname = useMemo(() => typeof window !== 'undefined' ? window.location.pathname : '/', []);
+
+  const renderContent = () => {
+    switch (pathname) {
+      case '/about':
+        return <About />;
+      case '/experience':
+        return <Experience />;
+      case '/education':
+        return <Education />;
+      case '/projects':
+        return <Projects />;
+      case '/skills':
+        return <Skills />;
+      case '/certifications':
+        return <Interest />;
+      case '/references':
+        return <Interest />;
+      case '/contact':
+        return <Contact />;
+      default:
+        return <Home />;
+    }
+  };
 
   return (
     <Layout>
       <AnimatePresence mode="wait">
-        <Routes location={location} key={location.pathname}>
+        <motion.div
+          key={pathname}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.3 }}
+        >
           <Route path="/" element={
             <motion.div
               initial={{ opacity: 0 }}
@@ -89,7 +117,7 @@ function App() {
               exit={{ opacity: 0 }}
               transition={{ duration: 0.3 }}
             >
-              <Certifications />
+              <Interest />
             </motion.div>
           } />
           <Route path="/references" element={
@@ -99,7 +127,7 @@ function App() {
               exit={{ opacity: 0 }}
               transition={{ duration: 0.3 }}
             >
-              <References />
+              <Interest />
             </motion.div>
           } />
           <Route path="/contact" element={
