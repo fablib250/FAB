@@ -12,8 +12,7 @@ import Experience from './pages/Experience';
 import Education from './pages/Education';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
-import Certifications from './pages/Certifications';
-import References from './pages/References';
+import Interest from './pages/Interest';
 import Contact from './pages/Contact';
 
 function App() {
